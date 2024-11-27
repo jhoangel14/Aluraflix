@@ -1,5 +1,33 @@
-body{
-    background-color: black;
+body {
     color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Oswald", sans-serif;
+
+
+    header {
+    border-bottom: solid 2px rgb(4, 93, 209);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(4, 93, 209)
 }
 
+section {
+    background: rgb(117, 2, 2);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto { 
+    margin-rigth: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}   
